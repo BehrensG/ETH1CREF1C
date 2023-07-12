@@ -1,0 +1,70 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 3beb1b22-cd6d-4815-b94c-38810c0b5748)
+
+  (paper "A4")
+
+  (title_block
+    (date "2020-03-07")
+    (rev "1.00")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 63.5 66.04) (size 55.245 59.055) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 09db3f8e-270e-4907-81c6-3f303e801a80)
+    (property "Sheetname" "FPGA" (at 63.5 65.3284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "FPGA.kicad_sch" (at 63.5 125.6796 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "ETH1CREF1C"
+        (path "/3beb1b22-cd6d-4815-b94c-38810c0b5748" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 138.43 66.04) (size 44.45 45.085) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 65f72ff5-b3af-4eb1-ab58-0890b1425d42)
+    (property "Sheetname" "ADC" (at 138.43 65.3284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "ADC.kicad_sch" (at 138.43 111.7096 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "ETH1CREF1C"
+        (path "/3beb1b22-cd6d-4815-b94c-38810c0b5748" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 200.025 85.09) (size 45.72 43.815) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 890d30b5-256e-4d05-a391-4ea9c6bc8419)
+    (property "Sheetname" "Input" (at 200.025 84.3784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Input.kicad_sch" (at 200.025 129.4896 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "ETH1CREF1C"
+        (path "/3beb1b22-cd6d-4815-b94c-38810c0b5748" (page "4"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
