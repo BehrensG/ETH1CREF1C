@@ -13,6 +13,23 @@
   )
 
 
+  (sheet (at 131.445 123.19) (size 55.88 34.925) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 0582d4ae-354f-488a-90dc-79008b6f00ff)
+    (property "Sheetname" "Power" (at 131.445 122.4784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Power.kicad_sch" (at 131.445 158.6996 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "ETH1CREF1C"
+        (path "/3beb1b22-cd6d-4815-b94c-38810c0b5748" (page "5"))
+      )
+    )
+  )
+
   (sheet (at 63.5 66.04) (size 55.245 59.055) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
